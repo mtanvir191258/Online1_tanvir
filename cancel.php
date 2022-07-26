@@ -2,7 +2,7 @@
 
 	$name = $_GET["name"];
 
-	$date = $_GET["id"];
+	$id = $_GET["id"];
 	
 
     
