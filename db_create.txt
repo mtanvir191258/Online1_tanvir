@@ -1,49 +1,14 @@
-create database db0;
-use db0;
+create database Bus_Ticket_Management;
+use Bus_Ticket_Management;
 
-create table t0 ( 
-	id INT(10) AUTO_INCREMENT, 
-	f0 char(30), 
-	f1 char(30),
-	PRIMARY KEY(id) 
+create table Ticket_Booking ( 
+	ID INT(10) AUTO_INCREMENT, 
+	name char(30), 
+	APPT_DATE DATE,
+	FROM_LOCATION char(30),
+	TO_LOCATION char(30),
+	STATUS char(30),
+	PRIMARY KEY(ID) 
 );
 
-insert into t0 values ( '', 'v00', 'v01' );
-insert into t0 values ( '', 'v10', 'v11' );
-select * from 
-
-
-
-create database elms;
-use elms;
-create table student{
-id INT(30) NOT NULL,
-dept char(30) NOT NULL,
-Nid INT(30) NOT NULL,
-Birthday DATE,
-address char(30)
-
-
-}
-create table teacher{
-id INT(30) NOT NULL,
-dept char(30) NOT NULL,
-Nid INT(30) NOT NULL,
-Birthday DATE,
-address char(30)
-
-}
-create table course{
-id INT(30) NOT NULL,
-dept char(30) NOT NULL,
-title INT(30) NOT NULL,
-credit INT(30) NOT NULL,
-syllabus char(30) NOT NULL
-}
-create table payment{
-payment_id INT(30) NOT NULL,
-student_id char(30) NOT NULL,
-amount INT(30) NOT NULL,
-date DATE
-}
 
