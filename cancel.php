@@ -24,7 +24,7 @@
 
 
 
-	echo "Record inserted:<br> name = $name <br> date = $date from=$from <br> to =$to" ;
+	echo "Record inserted:<br> name = $name <br> id = $id  <br> " ;
 
 
 

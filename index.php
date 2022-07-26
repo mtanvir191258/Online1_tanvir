@@ -28,7 +28,7 @@
 	echo "</table> \n";
 
 	echo "<p><a href=booking_input.php>addBooking</a>";
-	echo "<p><a href=create_input.php>CancelBooking</a>";
+	echo "<p><a href=booking_input.php>CancelBooking</a>";
 
 
 ?>
