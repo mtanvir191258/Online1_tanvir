@@ -8,7 +8,7 @@
 
 	<p>
 
-	To: <input type=text name=id> <br>
+	Id: <input type=text name=id> <br>
 
 
 	<p>

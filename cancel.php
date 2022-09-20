@@ -24,10 +24,10 @@
 
 
 
-	echo "Record inserted:<br> name = $name <br> id = $id  <br> " ;
+	echo "Record deleted:<br> name = $name <br> id = $id  <br> " ;
 
 
 
-	echo "<p><a href=read.php>READ all records</a>";
+	// echo "<p><a href=read.php>READ all records</a>";
 
 ?>
