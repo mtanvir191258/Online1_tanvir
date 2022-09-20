@@ -27,8 +27,11 @@
 
 	echo "</table> \n";
 
-	echo "<p><a href=booking_input.php>addBooking</a>";
-	echo "<p><a href=cancel_input.php>CancelBooking</a>";
+	echo "<button><a href=aptt_input.php>addBooking</button>";
+	echo "<button><a href=cancel_input.php>CancelBooking</button>";
+	
+
+
 
 
 ?>
